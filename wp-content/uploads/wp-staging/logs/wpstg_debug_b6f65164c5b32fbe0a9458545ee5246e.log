@@ -1,0 +1,165 @@
+[WP STAGING Shutdown Function][E_DEPRECATED][2023-08-04 08:16:18] strlen(): Passing null to parameter #1 ($string) of type string is deprecated - File: C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\SearchReplace.php Line: 398 | Is it Fatal Error? No | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_ERROR][2023-08-04 08:25:42] Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\thacodongnai\1691111750772\wp-content\plugins\wp-mail-smtp\assets\css\vendor): The system cannot find the path specifi (code: 3) in C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php:377
+Stack trace:
+#0 [internal function]: RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...', 4096)
+#1 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php(377): RecursiveDirectoryIterator->getChildren()
+#2 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(427): WPStaging\Framework\Filesystem\Filesystem->delete('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(285): WPStaging\Backend\Modules\Jobs\Delete->deleteDirectory()
+#4 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Administrator.php(755): WPStaging\Backend\Modules\Jobs\Delete->start()
+#5 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(308): WPStaging\Backend\Administrator->ajaxDeleteClone('')
+#6 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\thacodongnai\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\thacodongnai\wp-admin\admin-ajax.php(188): do_action('wp_ajax_wpstg_d...')
+#9 {main}
+  thrown - File: C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php Line: 377 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_ERROR][2023-08-04 08:25:44] Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\thacodongnai\1691111750772\wp-content\plugins\wp-staging\Backend\views\notices\_partial): The system cannot find the path specifi (code: 3) in C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php:377
+Stack trace:
+#0 [internal function]: RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...', 4096)
+#1 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php(377): RecursiveDirectoryIterator->getChildren()
+#2 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(427): WPStaging\Framework\Filesystem\Filesystem->delete('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(285): WPStaging\Backend\Modules\Jobs\Delete->deleteDirectory()
+#4 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Administrator.php(755): WPStaging\Backend\Modules\Jobs\Delete->start()
+#5 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(308): WPStaging\Backend\Administrator->ajaxDeleteClone('')
+#6 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\thacodongnai\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\thacodongnai\wp-admin\admin-ajax.php(188): do_action('wp_ajax_wpstg_d...')
+#9 {main}
+  thrown - File: C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php Line: 377 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_ERROR][2023-08-04 08:25:44] Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\thacodongnai\1691111750772\wp-content\plugins\wp-staging\Framework\Support): The system cannot find the file specifi (code: 2) in C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php:377
+Stack trace:
+#0 [internal function]: RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...', 4096)
+#1 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php(377): RecursiveDirectoryIterator->getChildren()
+#2 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(427): WPStaging\Framework\Filesystem\Filesystem->delete('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(285): WPStaging\Backend\Modules\Jobs\Delete->deleteDirectory()
+#4 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Administrator.php(755): WPStaging\Backend\Modules\Jobs\Delete->start()
+#5 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(308): WPStaging\Backend\Administrator->ajaxDeleteClone('')
+#6 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\thacodongnai\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\thacodongnai\wp-admin\admin-ajax.php(188): do_action('wp_ajax_wpstg_d...')
+#9 {main}
+  thrown - File: C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php Line: 377 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_ERROR][2023-08-04 08:25:45] Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\thacodongnai\1691111750772\wp-content\plugins\wp-staging\vendor_wpstg\google\apiclient\src\Http): The system cannot find the file specifi (code: 2) in C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php:377
+Stack trace:
+#0 [internal function]: RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...', 4096)
+#1 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php(377): RecursiveDirectoryIterator->getChildren()
+#2 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(427): WPStaging\Framework\Filesystem\Filesystem->delete('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(285): WPStaging\Backend\Modules\Jobs\Delete->deleteDirectory()
+#4 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Administrator.php(755): WPStaging\Backend\Modules\Jobs\Delete->start()
+#5 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(308): WPStaging\Backend\Administrator->ajaxDeleteClone('')
+#6 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\thacodongnai\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\thacodongnai\wp-admin\admin-ajax.php(188): do_action('wp_ajax_wpstg_d...')
+#9 {main}
+  thrown - File: C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php Line: 377 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_ERROR][2023-08-04 08:25:46] Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\thacodongnai\1691111750772\wp-content\plugins\wp-staging\vendor_wpstg\phpseclib\phpseclib\phpseclib\File): The system cannot find the path specifi (code: 3) in C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php:377
+Stack trace:
+#0 [internal function]: RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...', 4096)
+#1 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php(377): RecursiveDirectoryIterator->getChildren()
+#2 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(427): WPStaging\Framework\Filesystem\Filesystem->delete('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(285): WPStaging\Backend\Modules\Jobs\Delete->deleteDirectory()
+#4 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Administrator.php(755): WPStaging\Backend\Modules\Jobs\Delete->start()
+#5 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(308): WPStaging\Backend\Administrator->ajaxDeleteClone('')
+#6 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\thacodongnai\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\thacodongnai\wp-admin\admin-ajax.php(188): do_action('wp_ajax_wpstg_d...')
+#9 {main}
+  thrown - File: C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php Line: 377 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_ERROR][2023-08-04 08:25:46] Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\thacodongnai\1691111750772\wp-content\themes\steelthemes-nest\woocommerce\single-product-styles): The system cannot find the path specifi (code: 3) in C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php:377
+Stack trace:
+#0 [internal function]: RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...', 4096)
+#1 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php(377): RecursiveDirectoryIterator->getChildren()
+#2 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(427): WPStaging\Framework\Filesystem\Filesystem->delete('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(285): WPStaging\Backend\Modules\Jobs\Delete->deleteDirectory()
+#4 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Administrator.php(755): WPStaging\Backend\Modules\Jobs\Delete->start()
+#5 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(308): WPStaging\Backend\Administrator->ajaxDeleteClone('')
+#6 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\thacodongnai\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\thacodongnai\wp-admin\admin-ajax.php(188): do_action('wp_ajax_wpstg_d...')
+#9 {main}
+  thrown - File: C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php Line: 377 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_ERROR][2023-08-04 08:25:46] Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\thacodongnai\1691111750772\wp-content\themes\thacodongnai\widgets\widget_helper\assets\css\font-awesome\4.7.0\fonts): The system cannot find the path specifi (code: 3) in C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php:377
+Stack trace:
+#0 [internal function]: RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...', 4096)
+#1 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php(377): RecursiveDirectoryIterator->getChildren()
+#2 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(427): WPStaging\Framework\Filesystem\Filesystem->delete('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(285): WPStaging\Backend\Modules\Jobs\Delete->deleteDirectory()
+#4 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Administrator.php(755): WPStaging\Backend\Modules\Jobs\Delete->start()
+#5 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(308): WPStaging\Backend\Administrator->ajaxDeleteClone('')
+#6 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\thacodongnai\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\thacodongnai\wp-admin\admin-ajax.php(188): do_action('wp_ajax_wpstg_d...')
+#9 {main}
+  thrown - File: C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php Line: 377 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_ERROR][2023-08-04 08:25:47] Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\thacodongnai\1691111750772\wp-content\themes\thacodongnai\widgets\widget_helper\assets\js\fancybox\.github\ISSUE_TEMPLATE): The system cannot find the path specifi (code: 3) in C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php:377
+Stack trace:
+#0 [internal function]: RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...', 4096)
+#1 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php(377): RecursiveDirectoryIterator->getChildren()
+#2 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(427): WPStaging\Framework\Filesystem\Filesystem->delete('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(285): WPStaging\Backend\Modules\Jobs\Delete->deleteDirectory()
+#4 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Administrator.php(755): WPStaging\Backend\Modules\Jobs\Delete->start()
+#5 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(308): WPStaging\Backend\Administrator->ajaxDeleteClone('')
+#6 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\thacodongnai\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\thacodongnai\wp-admin\admin-ajax.php(188): do_action('wp_ajax_wpstg_d...')
+#9 {main}
+  thrown - File: C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php Line: 377 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_ERROR][2023-08-04 08:25:48] Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\thacodongnai\1691111750772\wp-includes\images\wlw): The system cannot find the path specifi (code: 3) in C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php:377
+Stack trace:
+#0 [internal function]: RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...', 4096)
+#1 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php(377): RecursiveDirectoryIterator->getChildren()
+#2 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(427): WPStaging\Framework\Filesystem\Filesystem->delete('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(285): WPStaging\Backend\Modules\Jobs\Delete->deleteDirectory()
+#4 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Administrator.php(755): WPStaging\Backend\Modules\Jobs\Delete->start()
+#5 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(308): WPStaging\Backend\Administrator->ajaxDeleteClone('')
+#6 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\thacodongnai\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\thacodongnai\wp-admin\admin-ajax.php(188): do_action('wp_ajax_wpstg_d...')
+#9 {main}
+  thrown - File: C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php Line: 377 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_ERROR][2023-08-04 08:25:48] Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\thacodongnai\1691111750772\wp-includes\js\mediaelement\renderers): The system cannot find the path specifi (code: 3) in C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php:377
+Stack trace:
+#0 [internal function]: RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...', 4096)
+#1 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php(377): RecursiveDirectoryIterator->getChildren()
+#2 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(427): WPStaging\Framework\Filesystem\Filesystem->delete('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(285): WPStaging\Backend\Modules\Jobs\Delete->deleteDirectory()
+#4 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Administrator.php(755): WPStaging\Backend\Modules\Jobs\Delete->start()
+#5 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(308): WPStaging\Backend\Administrator->ajaxDeleteClone('')
+#6 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\thacodongnai\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\thacodongnai\wp-admin\admin-ajax.php(188): do_action('wp_ajax_wpstg_d...')
+#9 {main}
+  thrown - File: C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php Line: 377 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_ERROR][2023-08-04 08:25:49] Uncaught UnexpectedValueException: FilesystemIterator::__construct(C:\xampp\htdocs\thacodongnai\1691111750772): The system cannot find the path specifi (code: 3) in C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php:462
+Stack trace:
+#0 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(462): FilesystemIterator->__construct('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(437): WPStaging\Backend\Modules\Jobs\Delete->isNotEmpty('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(285): WPStaging\Backend\Modules\Jobs\Delete->deleteDirectory()
+#3 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Administrator.php(755): WPStaging\Backend\Modules\Jobs\Delete->start()
+#4 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(308): WPStaging\Backend\Administrator->ajaxDeleteClone('')
+#5 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\thacodongnai\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\thacodongnai\wp-admin\admin-ajax.php(188): do_action('wp_ajax_wpstg_d...')
+#8 {main}
+  thrown - File: C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php Line: 462 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_WARNING][2023-08-04 08:25:49] unlink(C:\xampp\htdocs\thacodongnai\1691111750772\wp-load.php): No such file or directory - File: C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Framework\Filesystem\Filesystem.php Line: 683 | Is it Fatal Error? No | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_ERROR][2023-08-04 08:25:49] Uncaught Exception: Couldn't delete cache: delete_job_1691111750772. Full Path: C:\xampp\htdocs\thacodongnai/wp-content/uploads/wp-staging/delete_job_1691111750772.cache in C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Core\Utils\Cache.php:178
+Stack trace:
+#0 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(505): WPStaging\Core\Utils\Cache->delete('delete_job_1691...')
+#1 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(449): WPStaging\Backend\Modules\Jobs\Delete->deleteFinish()
+#2 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Modules\Jobs\Delete.php(285): WPStaging\Backend\Modules\Jobs\Delete->deleteDirectory()
+#3 C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Backend\Administrator.php(755): WPStaging\Backend\Modules\Jobs\Delete->start()
+#4 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(308): WPStaging\Backend\Administrator->ajaxDeleteClone('')
+#5 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\thacodongnai\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\thacodongnai\wp-admin\admin-ajax.php(188): do_action('wp_ajax_wpstg_d...')
+#8 {main}
+  thrown - File: C:\xampp\htdocs\thacodongnai\wp-content\plugins\wp-staging\Core\Utils\Cache.php Line: 178 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_ERROR][2023-08-04 08:29:08] Uncaught Error: Class "ZipArchive" not found in C:\xampp\htdocs\thacodongnai\wp-content\plugins\duplicator\classes\utilities\class.u.zip.php:127
+Stack trace:
+#0 C:\xampp\htdocs\thacodongnai\wp-content\plugins\duplicator\ctrls\ctrl.tools.php(143): DUP_Zip_U::zipFile('C:/xampp/htdocs...', 'C:/xampp/htdocs...', true, NULL, true)
+#1 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(308): DUP_CTRL_Tools->getTraceLog('')
+#2 C:\xampp\htdocs\thacodongnai\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\thacodongnai\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\thacodongnai\wp-admin\admin-ajax.php(188): do_action('wp_ajax_DUP_CTR...')
+#5 {main}
+  thrown - File: C:\xampp\htdocs\thacodongnai\wp-content\plugins\duplicator\classes\utilities\class.u.zip.php Line: 127 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No

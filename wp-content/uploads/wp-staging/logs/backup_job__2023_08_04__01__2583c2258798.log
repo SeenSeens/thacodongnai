@@ -1,0 +1,61 @@
+[info]-[2023/08/04 08:23:21] #################### Start Backup Job ####################
+[info]-[2023/08/04 08:23:21] WP Staging Version: 3.0.0
+[info]-[2023/08/04 08:23:21] PHP Version: 8.2.4
+[info]-[2023/08/04 08:23:21] Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4
+[info]-[2023/08/04 08:23:21] MySQL: 8.1.0
+[info]-[2023/08/04 08:23:21] WP Version: 6.2.2
+[info]-[2023/08/04 08:23:21] PHP Memory Limit: 536870912
+[info]-[2023/08/04 08:23:21] WP Memory Limit: 41943040
+[info]-[2023/08/04 08:23:21] PHP Max Execution Time: 200
+[info]-[2023/08/04 08:23:21] Backup requirements passed...
+[info]-[2023/08/04 08:23:22] Discovering Files: Skipped directory "wp-content/plugins/wp-staging/". Excluded by rule
+[info]-[2023/08/04 08:23:24] Discovering Files: Skipped directory "wp-content/uploads/wp-staging/". Excluded by rule
+[info]-[2023/08/04 08:23:25] Discovering Files: Skipped file "wp-content/backups-dup-lite/dup_b90eccebd57e957e4618c3c6fefd364e.log/." Extension "log" is excluded by rule.
+[info]-[2023/08/04 08:23:25] Finished discovering Files. (3379 files)
+[info]-[2023/08/04 08:23:26] Added 85/85 otherfiles files to backup (4 MB/s)
+[info]-[2023/08/04 08:23:37] Added 915/2804 plugins files to backup (2 MB/s)
+[info]-[2023/08/04 08:23:47] Added 1771/2804 plugins files to backup (776 KB/s)
+[info]-[2023/08/04 08:23:58] Added 2556/2804 plugins files to backup (654 KB/s)
+[info]-[2023/08/04 08:24:01] Added 2804/2804 plugins files to backup (825 KB/s)
+[info]-[2023/08/04 08:24:02] Added 0/0 muplugins files to backup (0 B/s)
+[info]-[2023/08/04 08:24:08] Added 445/445 themes files to backup (6 MB/s)
+[info]-[2023/08/04 08:24:09] Added 45/45 uploads files to backup (104 MB/s)
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_actionscheduler_actions. Rows: 7/7
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_actionscheduler_claims. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_actionscheduler_groups. Rows: 2/2
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_actionscheduler_logs. Rows: 19/19
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_commentmeta. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_comments. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_duplicator_packages. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_e_events. Rows: 2/2
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_e_submissions. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_e_submissions_actions_log. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_e_submissions_values. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_links. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_options. Rows: 326/326
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_postmeta. Rows: 1.462/1.462
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_posts. Rows: 191/191
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_revslider_css. Rows: 109/109
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_revslider_css_bkp. Rows: 109/109
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_revslider_layer_animations. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_revslider_layer_animations_bkp. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_revslider_navigations. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_revslider_navigations_bkp. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_revslider_sliders. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_revslider_sliders_bkp. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_revslider_slides. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_revslider_slides_bkp. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_revslider_static_slides. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_revslider_static_slides_bkp. Rows: 0/0
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_term_relationships. Rows: 64/64
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_term_taxonomy. Rows: 32/32
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_termmeta. Rows: 16/16
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_terms. Rows: 32/32
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_usermeta. Rows: 48/48
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_users. Rows: 1/1
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_wpmailsmtp_debug_events. Rows: 1/1
+[info]-[2023/08/04 08:24:11] Backup database: Table wp_wpmailsmtp_tasks_meta. Rows: 0/0
+[info]-[2023/08/04 08:24:12] Included 3 MB/3 MB of Database Backup.
+[info]-[2023/08/04 08:24:14] Successfully created backup file
+[info]-[2023/08/04 08:24:15] The backup was validated successfully.
+[info]-[2023/08/04 08:24:15] ################## FINISH ##################
