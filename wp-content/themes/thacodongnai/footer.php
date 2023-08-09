@@ -1,4 +1,5 @@
 <?php $tp_hotline = get_option('tp_hotline'); ?>
+</div>
 <footer id="footer" class="footer">
 	<div class="container">
 	    <div class="footer__wrap">
@@ -13,7 +14,7 @@
 	            <div class="footer-license__wapper-list">
 	                <ul>
 	                    <li><a href="#" class="Roboto-Regular c-text-base text-white"> Chính sách bảo mật </a></li>
-	                    <li><h5 class="text-white Roboto-Regular c-text-base">© 2022-2025 BẢN QUYỀN CỦA THACO AUTO</h5></li>
+	                    <li><h5 class="text-white Roboto-Regular c-text-base">© <?php echo date('Y'); ?> BẢN QUYỀN CỦA SHOW ROOM XE TẢI</h5></li>
 	                </ul>
 	            </div>
 	            <div class="footer-license__wapper-title">

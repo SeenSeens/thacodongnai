@@ -91,7 +91,7 @@ class Wg_Product_Tab_Slide extends WP_Widget {
                                                             $dich_vu_247 = get_field('dich_vu_247', get_the_ID());
                                                             ?>                                                 
                                                             <div class="swiper-slide">
-                                                                <a href="" class="nuxt-link-exact-active nuxt-link-active">
+                                                                <a href="<?php the_permalink(); ?>" class="nuxt-link-exact-active nuxt-link-active">
                                                                     <div class="slide-home-product">
                                                                         <a href="<?php the_permalink(); ?>">
                                                                             <div class="slide-home-product-image">

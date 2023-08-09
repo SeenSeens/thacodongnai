@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<div class="margin-header">
     <?php custom_post_type_breadcrumb(); ?>
     <?php
     $query = new WP_Query( [
@@ -53,5 +52,4 @@
             </div>
         </div>
     </div>
-</div>
 <?php get_footer(); ?>
