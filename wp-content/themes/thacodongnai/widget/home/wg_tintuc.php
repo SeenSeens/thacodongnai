@@ -47,7 +47,7 @@ class Wg_Tintuc extends WP_Widget {
                             while( $query->have_posts() ) {
                                 $query->the_post();
                         ?>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide swiper-slide-tintuc">
                             <div class="slide__new">
                                 <div class="slide__new--item">
                                     <a href="<?php the_permalink(); ?>" class="slide__new--item-image">
